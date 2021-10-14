@@ -1,0 +1,92 @@
+* {
+  font-family: "Alegreya", serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/img/nord.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.background {
+}
+.navbar {
+  opacity: 0.4;
+}
+.mainHeader {
+  font-weight: 800;
+  font-size: 5rem;
+  width: auto;
+  height: auto;
+}
+.instructions {
+  font-weight: 500;
+  font-size: 2rem;
+  width: auto;
+  height: auto;
+}
+.nameForm {
+  font-family: sans-serif;
+}
+
+.fire {
+  display: block;
+  height: 45%;
+  width: 45%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .instructions {
+    color: rgb(160, 170, 179);
+  }
+  .name {
+    color: rgb(160, 170, 179);
+  }
+  .output {
+    color: rgb(160, 170, 179);
+  }
+}
+
+.container2 {
+  height: auto;
+  width: auto;
+}
+.box {
+  display: none;
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+.contactHeading {
+  text-align: center;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.contactForm {
+  display: flex;
+  color: rgb(160, 170, 179);
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.submit {
+  color: rgb(160, 170, 179);
+  border: solid 1px rgb(160, 170, 179);
+}
+
+.copyright {
+  text-align: center;
+  color: rgb(160, 170, 179);
+}
+footer {
+  margin-top: auto;
+}
